@@ -55,7 +55,7 @@ pedidoParaAtualizar.atualizarStatus("Pago");
 calcularTotalDePedidos();
 
 //Verificando o novo status do pedido alterado.
-console.log(`Status do pedido # ${pedidoParaAtualizar.id} foi atualizado!`);
+console.log(`O Status do pedido # ${pedidoParaAtualizar.id} foi atualizado!`);
 console.log("Listando o pedido atualizado:");
 console.log(`Pedido # ${pedidoParaAtualizar.id} - Valor: R$ ${pedidoParaAtualizar.valor.toFixed(2)} - Status: ${pedidoParaAtualizar.status}`);
 
